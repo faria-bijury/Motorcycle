@@ -33,7 +33,9 @@ a:hover{
 	text-transform: capitalize;
 	margin: 0px 0px 0px 10px;
     }
-
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:active{
+	color:blue
+}
 .header .social-icon{
 	padding: 0px 0px 0px 40px;
 	text-align: right;
@@ -45,6 +47,10 @@ a:hover{
 	border: 3px solid #fff;
 	border-radius: 100%;
 	margin: 0px 0px 0px 15px;
+}
+.header .social-icon .fa:hover, .header .social-icon .fa:active{
+	color: blue;
+	border: 3px solid blue;
 }
 .banner img{
 	width: 80%;
